@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+</head>
+<body>
+    <center>
+<h1>Média do Aluno</h1>
+<script>
+    var nomedoProf =prompt("Digite Seu Nome: ")
+    var nomedoAluno =prompt("Digite o Nome do Aluno: ")
+    var nota1 =parseInt(prompt("Primeira Nota: "))
+    var nota2 =parseInt(prompt("Segunda Nota: "))
+    var nota3 =parseInt(prompt("Terceira Nota: "))
+    var nota4 =parseInt(prompt("Quarta Nota: "))
+    var notaFinal = ((nota1 + nota2 + nota3 + nota4) / 4)
+    document.write("Média do "+ nomedoAluno + ": "+ notaFinal)
+    document.write("<br>")
+if(notaFinal>="7"){
+    document.write("Aluno Aprovado")
+}else{
+    document.write("Aluno Reprovado")
+}
+</script>
+    </center>
+   
+</body>
+</html>
